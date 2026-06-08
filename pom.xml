@@ -9,7 +9,7 @@
     <name>SpringMVCHibernateManyToManyCRUDExample</name>
 
     <properties>
-        <springframework.version>7.0.7</springframework.version>
+        <springframework.version>7.0.8</springframework.version>
         <hibernate.version>7.4.0.Final</hibernate.version>
         <mysql.connector.version>8.0.33</mysql.connector.version>
     </properties>
