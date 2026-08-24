@@ -8,10 +8,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
@@ -21,7 +20,7 @@ import com.websystique.springmvc.converter.RoleToUserProfileConverter;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "com.websystique.springmvc")
-public class AppConfig extends WebMvcConfigurerAdapter{
+public class AppConfig implements WebMvcConfigurer{
 	
 	
 	@Autowired
@@ -68,14 +67,5 @@ public class AppConfig extends WebMvcConfigurerAdapter{
 	    messageSource.setBasename("messages");
 	    return messageSource;
 	}
-    
-    /**Optional. It's only required when handling '.' in @PathVariables which otherwise ignore everything after last '.' in @PathVaidables argument.
-     * It's a known bug in Spring [https://jira.spring.io/browse/SPR-6164], still present in Spring 4.1.7.
-     * This is a workaround for this issue.
-     */
-    @Override
-    public void configurePathMatch(PathMatchConfigurer matcher) {
-        matcher.setUseRegisteredSuffixPatternMatch(true);
-    }
 }
 
