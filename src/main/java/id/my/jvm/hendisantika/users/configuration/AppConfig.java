@@ -16,7 +16,15 @@ import org.springframework.web.servlet.view.JstlView;
 
 import id.my.jvm.hendisantika.users.converter.RoleToUserProfileConverter;
 
-
+/**
+ * Created by IntelliJ IDEA.
+ * Project : SpringMVCHibernateManyToManyCRUDExample
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 24/08/26
+ * Time: 06.57
+ */
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "id.my.jvm.hendisantika.users")

@@ -16,6 +16,15 @@ import org.springframework.orm.jpa.hibernate.HibernateTransactionManager;
 import org.springframework.orm.jpa.hibernate.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+/**
+ * Created by IntelliJ IDEA.
+ * Project : SpringMVCHibernateManyToManyCRUDExample
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 24/08/26
+ * Time: 06.57
+ */
 @Configuration
 @EnableTransactionManagement
 @ComponentScan({ "id.my.jvm.hendisantika.users.configuration" })

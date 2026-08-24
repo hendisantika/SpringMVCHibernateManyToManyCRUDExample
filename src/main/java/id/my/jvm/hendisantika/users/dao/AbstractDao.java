@@ -8,6 +8,15 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * Created by IntelliJ IDEA.
+ * Project : SpringMVCHibernateManyToManyCRUDExample
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 24/08/26
+ * Time: 06.57
+ */
 public abstract class AbstractDao<PK extends Serializable, T> {
 	
 	private final Class<T> persistentClass;

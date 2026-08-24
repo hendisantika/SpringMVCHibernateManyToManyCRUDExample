@@ -15,6 +15,15 @@ import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotEmpty;
 
+/**
+ * Created by IntelliJ IDEA.
+ * Project : SpringMVCHibernateManyToManyCRUDExample
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 24/08/26
+ * Time: 06.57
+ */
 @Entity
 @Table(name="APP_USER")
 public class User {

@@ -7,6 +7,15 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+/**
+ * Created by IntelliJ IDEA.
+ * Project : SpringMVCHibernateManyToManyCRUDExample
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 24/08/26
+ * Time: 06.57
+ */
 @Entity
 @Table(name="USER_PROFILE")
 public class UserProfile {
