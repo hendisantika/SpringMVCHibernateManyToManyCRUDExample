@@ -1,8 +1,8 @@
-package com.websystique.springmvc.service;
+package id.my.jvm.hendisantika.users.service;
 
 import java.util.List;
 
-import com.websystique.springmvc.model.UserProfile;
+import id.my.jvm.hendisantika.users.model.UserProfile;
 
 
 public interface UserProfileService {

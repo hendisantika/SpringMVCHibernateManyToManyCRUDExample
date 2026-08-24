@@ -1,11 +1,11 @@
-package com.websystique.springmvc.dao;
+package id.my.jvm.hendisantika.users.dao;
 
 import java.util.List;
 
 import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 
-import com.websystique.springmvc.model.UserProfile;
+import id.my.jvm.hendisantika.users.model.UserProfile;
 
 
 

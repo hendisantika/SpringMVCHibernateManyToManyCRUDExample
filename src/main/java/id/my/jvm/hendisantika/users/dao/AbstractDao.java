@@ -1,4 +1,4 @@
-package com.websystique.springmvc.dao;
+package id.my.jvm.hendisantika.users.dao;
 
 import java.io.Serializable;
 

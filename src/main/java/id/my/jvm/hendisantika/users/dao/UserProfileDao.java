@@ -1,8 +1,8 @@
-package com.websystique.springmvc.dao;
+package id.my.jvm.hendisantika.users.dao;
 
 import java.util.List;
 
-import com.websystique.springmvc.model.UserProfile;
+import id.my.jvm.hendisantika.users.model.UserProfile;
 
 
 public interface UserProfileDao {

@@ -1,4 +1,4 @@
-package com.websystique.springmvc.dao;
+package id.my.jvm.hendisantika.users.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.hibernate.Hibernate;
 import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 
-import com.websystique.springmvc.model.User;
+import id.my.jvm.hendisantika.users.model.User;
 
 
 

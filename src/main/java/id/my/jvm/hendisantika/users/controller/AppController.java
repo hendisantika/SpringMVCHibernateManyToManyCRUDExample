@@ -1,4 +1,4 @@
-package com.websystique.springmvc.controller;
+package id.my.jvm.hendisantika.users.controller;
 
 import java.util.List;
 import java.util.Locale;
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.websystique.springmvc.model.User;
-import com.websystique.springmvc.model.UserProfile;
-import com.websystique.springmvc.service.UserProfileService;
-import com.websystique.springmvc.service.UserService;
+import id.my.jvm.hendisantika.users.model.User;
+import id.my.jvm.hendisantika.users.model.UserProfile;
+import id.my.jvm.hendisantika.users.service.UserProfileService;
+import id.my.jvm.hendisantika.users.service.UserService;
 
 
 

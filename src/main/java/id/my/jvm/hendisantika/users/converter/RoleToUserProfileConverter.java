@@ -1,11 +1,11 @@
-package com.websystique.springmvc.converter;
+package id.my.jvm.hendisantika.users.converter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import com.websystique.springmvc.model.UserProfile;
-import com.websystique.springmvc.service.UserProfileService;
+import id.my.jvm.hendisantika.users.model.UserProfile;
+import id.my.jvm.hendisantika.users.service.UserProfileService;
 
 /**
  * A converter class used in views to map id's to actual userProfile objects.

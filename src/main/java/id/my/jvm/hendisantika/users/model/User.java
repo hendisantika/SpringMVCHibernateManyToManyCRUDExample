@@ -1,4 +1,4 @@
-package com.websystique.springmvc.model;
+package id.my.jvm.hendisantika.users.model;
 
 import java.util.HashSet;
 import java.util.Set;
